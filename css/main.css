@@ -1,3 +1,11 @@
+@font-face {
+    font-family: "comic";
+    src: url(../assets/fonts/Hey\ Comic.ttf);
+}
+@font-face {
+    font-family: "ink-free";
+    src: url(../assets/fonts/Inkfree.ttf);
+}
 body {
     background-color: #ffe6ff;
     overflow: hidden;
@@ -7,8 +15,8 @@ body {
     color: #b3d9ff;
     font-size: 90px;
     text-shadow: -1.5px 0 2px #004080,0px 1.5px 2px #004080,1.5px 0 2px #004080,0px -1.5px 2px #004080;
-    font-family: 'britannic';
-    line-height: 90px;
+    font-family: 'comic';
+    line-height: 95px;
     letter-spacing: 5px;
 }
 hr {
@@ -34,7 +42,7 @@ p {
     width: 50%;
     color: #004080;
     font-size: 45px;
-    font-family: "ink free";
+    font-family: "ink-free";
     font-weight: bold;
     margin-top: 80px;
     line-height: 50px;
